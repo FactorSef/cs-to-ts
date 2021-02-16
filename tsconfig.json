@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "charset": "utf-8",
+        "target": "ESNext",
+        "module": "CommonJS",
+        "rootDir": "src",
+        "outDir": "dist",
+        "declaration": true,
+        "declarationDir": "dist/@types",
+        "removeComments": true,
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
