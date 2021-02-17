@@ -17,7 +17,7 @@ class Parser {
     bindParsers() {
         this.parsers = [
             Parser.fn(parsers.classes.parseClass, generators.classes.generateClass),
-            // Parser.fn()
+            Parser.fn(parsers.comments.parseXmlDocBlock, generators.comments.generateJsDoc),
         ]
     }
 
