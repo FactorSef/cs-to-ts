@@ -27,20 +27,19 @@ class Parser {
 
         while (true) {
             const nextMatch = this.nextParse(code, index);
-
             if (!nextMatch) {
                 break;
             }
 
             // add the last unmatched code:
-            result.concat(code.substr(index, nextMatch.index - index));
+            result += code.substr(index, nextMatch.index - index);
             // add the matched code:
-            result.concat(nextMatch.result);
+            result += nextMatch.result;
             // increment the search index:
             index = nextMatch.index + nextMatch.length;
         }
 
-        result.concat(code.substr(index));
+        result += code.substr(index);
 
         return result;
     }
