@@ -1,7 +1,7 @@
-import * as regex from '../regex';
-import * as constants from '../constants';
-import { IConfig } from '../config';
-import { CSTypeEnum, ExtendsType, ITypeModel, ITypeCategory, IArrayType } from '../types';
+import * as regex from './regex';
+import * as constants from './constants';
+import { IConfig } from './config';
+import { CSTypeEnum, ExtendsType, ITypeModel, ITypeCategory, IArrayType, IParseResultData } from './types';
 
 /**Check if the given type is a simple that that passes as an uri parameter */
 export function isUriSimleType(type: ExtendsType) {
@@ -261,7 +261,7 @@ function parseArray(code: string): IArrayType {
 }
 
 /**Parse a C# type, returns null if the given type could not be parsed */
-export function parseType(code: string): ITypeModel {
+export function parseType(code: string): IParseResultData {
     //Remove all spaces:
     code = code.replace(' ', '');
 

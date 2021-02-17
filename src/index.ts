@@ -1,5 +1,7 @@
 import { IConfig, getConfig } from "./config";
 import { GenerateFn, IGenerateResult, ParseFn, BindedParserFn } from "./types";
+import * as parsers from './parsers';
+import * as generators from './generators';
 
 class Parser {
     /** Configuration parser */
@@ -14,6 +16,7 @@ class Parser {
 
     bindParsers() {
         this.parsers = [
+            Parser.fn(parsers.classes.parseClass, generators.classes.generateClass),
             // Parser.fn()
         ]
     }

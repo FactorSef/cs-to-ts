@@ -1,1 +1,1 @@
-export * as types from './type-convector';
+export * as classes from './classes';
