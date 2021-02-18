@@ -1,7 +1,7 @@
 {
   "name": "@factor-sef/cs-to-ts",
   "version": "1.0.0",
-  "description": "This is package to convert C# class to typescript where user have flexibility to configure the library to get desired output.",
+  "description": "This is a simple package to convert C# class to typescript where user have flexibility to configure the library to get desired output.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
