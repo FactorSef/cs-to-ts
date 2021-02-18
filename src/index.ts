@@ -20,6 +20,7 @@ class Parser {
             Parser.fn(parsers.comments.parseXmlDocBlock, generators.comments.generateJsDoc),
             Parser.fn(parsers.methods.parseConstructor, generators.methods.generateConstructor),
             Parser.fn(parsers.methods.parseMethod, generators.methods.generateMethod),
+            Parser.fn(parsers.properties.parseProperty, generators.properties.generateProperty),
         ]
     }
 
