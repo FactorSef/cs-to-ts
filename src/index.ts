@@ -21,6 +21,8 @@ class Parser {
             Parser.fn(parsers.methods.parseConstructor, generators.methods.generateConstructor),
             Parser.fn(parsers.methods.parseMethod, generators.methods.generateMethod),
             Parser.fn(parsers.properties.parseProperty, generators.properties.generateProperty),
+            generators.publicMembers.generatePublicMember,
+            generators.attributes.generateAttr,
         ]
     }
 
