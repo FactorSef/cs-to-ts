@@ -1,14 +1,29 @@
 {
-  "name": "next-gen-parser",
+  "name": "@factor-sef/cs-to-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is package to convert C# class to typescript where user have flexibility to configure the library to get desired output.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FactorSef/cs-to-ts.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "Csharp",
+    "npm",
+    "node.js",
+    "csharp",
+    "to",
+    "typescript",
+    "csharp",
+    "poco",
+    "csharptypescript"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
