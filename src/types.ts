@@ -63,6 +63,10 @@ export interface IParseResultData {
     modifier?: string;
     initializer?: string;
     isField?: boolean;
+    parameters?: Array<IParseResultData>
+    body?: string;
+    async?: boolean;
+    returnType?: string;
 }
 
 export interface IParseResultDataItem {
@@ -74,6 +78,14 @@ export interface IParseResultDataItem {
     tag?: string;
     attributes?: Array<IParseResultDataItemAttr>;
     text?: string;
+}
+
+/**
+ * @deprecated
+ */
+export interface IParseResultDataParam {
+    type: string;
+    name: string;
 }
 
 export interface IParseResultDataItemAttr {

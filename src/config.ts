@@ -98,6 +98,14 @@ export interface IConfig {
      * @default false
      */
     preserveModifiers?: boolean;
+    /**
+     * @default 8
+     */
+    maxBodyDepth?: number;
+    /**
+     * @default 4
+     */
+    maxExpressionDepth?: number;
 }
 
 export function getConfig(config?: IConfig): IConfig {
@@ -115,6 +123,8 @@ export function getConfig(config?: IConfig): IConfig {
         removeNameRegex:'',
         classToInterface: true,
         preserveModifiers: false,
+        maxBodyDepth: 8,
+        maxExpressionDepth: 4,
         ...config,
     }
 }

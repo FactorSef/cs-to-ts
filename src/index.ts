@@ -18,6 +18,8 @@ class Parser {
         this.parsers = [
             Parser.fn(parsers.classes.parseClass, generators.classes.generateClass),
             Parser.fn(parsers.comments.parseXmlDocBlock, generators.comments.generateJsDoc),
+            Parser.fn(parsers.methods.parseConstructor, generators.methods.generateConstructor),
+            Parser.fn(parsers.methods.parseMethod, generators.methods.generateMethod),
         ]
     }
 
