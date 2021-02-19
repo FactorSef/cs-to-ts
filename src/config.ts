@@ -27,7 +27,7 @@ export interface IConfig {
      */
     recursiveTrimPostfixes?: boolean;
     /**
-     * ignoreInitializer
+     * When `true` to initializers will be ignored
      * 
      * @default true
      */
@@ -67,7 +67,7 @@ export interface IConfig {
      */
     byteArrayToString?: boolean;
     /**
-     * Convert C# `DateTime` and `DateTimeOffset` to selected types,
+     * Convert C# types `DateTime` and `DateTimeOffset` to selected types
      * 
      * @default 'Date | string'
      */
