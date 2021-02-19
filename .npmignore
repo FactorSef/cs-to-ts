@@ -10,5 +10,3 @@
 config.gypi
 CVS
 npm-debug.log
-jest.config.json
-test/
