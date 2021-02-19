@@ -24,8 +24,8 @@
     "poco",
     "csharptypescript"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Yakovenko Andrey",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "jest": "^26.6.3",
