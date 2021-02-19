@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/FactorSef/cs-to-ts.git"
   },
+  "homepage": "https://github.com/FactorSef/cs-to-ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
