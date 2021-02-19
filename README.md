@@ -1,5 +1,8 @@
 # cs-to-ts
-[![CI status][github-action-image]][github-action-url]
+[![CI status]][github-action-url]
+
+[github-action-url]: https://github.com/FactorSef/cs-to-ts/actions?query=workflow%3A%22%Node.js+CI%22%
+
 It is a simple package for converting a C# class to typescript, where the user can flexibly customize the library to get the desired result.
 
 this package was inspired by [@YuvrajSagarRana/csharp-to-typescript](https://github.com/YuvrajSagarRana/csharp-to-typescript) solution.
