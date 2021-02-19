@@ -53,14 +53,14 @@ export class Address
 | param | type | default | description |
 | ----- | ---- | ------- | ----------- |
 | propertiesToCamelCase | `boolean` | `true` | transform properties names to camelCase |
-| trimPostfixes | `string | string[]` | `[]` | Removes specified postfixes from property names, types & class names. |
+| trimPostfixes | `string \| string[]` | `[]` | Removes specified postfixes from property names, types & class names. |
 | recursiveTrimPostfixes | `boolean` | `true` | Whether or not trim postfixes recursive. (e.g. with postfixes 'A' & 'B' PersonAAB will become PersonAA when it's `false` and Person when it's `true`) |
 | ignoreInitializer | `boolean` | `true` | When `true` to initializers will be ignored |
 | removeMethodBodies | `boolean` | `false` | If `true` then method bodies will be removed, else preserve the method body as-is |
 | removeConstructors | `boolean` | `true` | When `true` to removing class constructor |
-| methodStyle | `'signature' | 'lambda' | 'controller'` | `'signature'` | `'signature'` to emit a method signature. `'lambda'` to emit a lambda function. `'controller'` to emit a lambda to call an async controller. |
+| methodStyle | `'signature' \| 'lambda' \| 'controller'` | `'signature'` | `'signature'` to emit a method signature. `'lambda'` to emit a lambda function. `'controller'` to emit a lambda to call an async controller. |
 | byteArrayToString | `boolean` | `true` | `true` to convert C# byte array type to Typescript string |
-| dateTypes | `string | string[]` | `'Date | string'` | Convert C# types `DateTime` and `DateTimeOffset` to selected types |
+| dateTypes | `string \| string[]` | `'Date \| string'` | Convert C# types `DateTime` and `DateTimeOffset` to selected types |
 | removeWithModifier | `string[]` | `[]` | Remove fields or properties with the given modifiers (Ex. if you want to remove private and internal members set to `['private', 'internal']`) |
 | removeNameRegex | `string` | `null` | If setted, any property or field that its name matches the given regex will be removed |
 | classToInterface | `boolean` | `true` | When `true` to classes will be converted to interfaces |
