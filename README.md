@@ -1,4 +1,5 @@
 # cs-to-ts
+[![CI status][github-action-image]][github-action-url]
 It is a simple package for converting a C# class to typescript, where the user can flexibly customize the library to get the desired result.
 
 this package was inspired by [@YuvrajSagarRana/csharp-to-typescript](https://github.com/YuvrajSagarRana/csharp-to-typescript) solution.
