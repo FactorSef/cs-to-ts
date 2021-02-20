@@ -10,4 +10,11 @@
 config.gypi
 CVS
 npm-debug.log
+
+# clearing package
 .github
+src
+test
+gulpfile.js
+jest.config.test
+tsconfig.json
