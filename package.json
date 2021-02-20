@@ -1,16 +1,17 @@
 {
   "name": "@factor-sef/cs-to-ts",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This is a simple package to convert C# class to typescript where user have flexibility to configure the library to get desired output.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/es/index.js",
+  "module": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FactorSef/cs-to-ts.git"
   },
   "homepage": "https://github.com/FactorSef/cs-to-ts",
   "scripts": {
-    "build": "tsc",
+    "build": "gulp build",
     "test": "jest"
   },
   "keywords": [
@@ -29,6 +30,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.20",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-terser": "^2.0.1",
+    "gulp-typescript": "^6.0.0-alpha.1",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.1",
     "ts-node": "^9.1.1",
