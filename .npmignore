@@ -14,7 +14,7 @@ npm-debug.log
 # clearing package
 .github
 src
-test
+tests
 gulpfile.js
-jest.config.test
+jest.config.ts
 tsconfig.json
