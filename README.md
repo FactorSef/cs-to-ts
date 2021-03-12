@@ -1,8 +1,14 @@
 # cs-to-ts
+[![License: MIT][license-image]][licanse-url]
 [![CI status][github-action-image]][github-action-url]
+[![Package ver.][pkg-version-image]][pkg-url]
 
 [github-action-image]: https://github.com/FactorSef/cs-to-ts/workflows/tests/badge.svg
 [github-action-url]: https://github.com/FactorSef/cs-to-ts/actions?query=workflow%253A%22tests%22
+[license-image]: https://img.shields.io/npm/l/@factor-sef/cs-to-ts?color=green
+[licanse-url]: https://github.com/FactorSef/cs-to-ts/blob/master/LICENSE
+[pkg-version-image]: https://img.shields.io/npm/v/@factor-sef/cs-to-ts?label=varsion
+[pkg-url]: https://www.npmjs.com/package/@factor-sef/cs-to-ts
 
 It is a simple package for converting a C# class to typescript, where the user can flexibly customize the library to get the desired result.
 
