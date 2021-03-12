@@ -1,14 +1,12 @@
 {
-    "compilerOptions": {
-        "charset": "utf-8",
-        "target": "ESNext",
-        "module": "CommonJS",
-        "rootDir": "src",
-        "outDir": "dist",
-        "declaration": true,
-        "removeComments": true,
-    },
-    "include": [
-        "src/**/*"
-    ]
+  "compilerOptions": {
+    "charset": "utf-8",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "removeComments": true
+  },
+  "include": ["src/**/*"]
 }

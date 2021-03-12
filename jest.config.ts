@@ -4,8 +4,8 @@
  */
 
 export default {
-  coverageDirectory: "coverage",
-  coverageProvider: "v8",
-  preset: 'ts-jest',
-  testEnvironment: "node",
+	coverageDirectory: "coverage",
+	coverageProvider: "v8",
+	preset: "ts-jest",
+	testEnvironment: "node",
 };
